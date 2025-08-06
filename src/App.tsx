@@ -8,6 +8,8 @@ import { AuthProvider } from "@/contexts/AuthContext"; // Import AuthProvider
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
+console.log("App.tsx rendered"); // <-- Добавлено
+
 const queryClient = new QueryClient();
 
 const App = () => (
